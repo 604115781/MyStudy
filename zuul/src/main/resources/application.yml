@@ -1,0 +1,26 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: zuul
+zuul:
+  routes:
+    item:
+      path: /item/**
+      url: http://127.0.0.1:8083
+      serviceid: item
+    order:
+      path: /order/**
+      serviceid: order
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:zjk1305@127.0.0.1:8100/eureka/
+    ###因为该应用为服务提供者，是eureka的一个客户端，需要注册到注册中心
+    register-with-eureka: true
+    ###是否需要从eureka上检索服务
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}

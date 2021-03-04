@@ -11,7 +11,7 @@
     <groupId>com.nginx</groupId>
     <artifactId>nginx-8080</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-8080</name>
+    <name>nginx</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

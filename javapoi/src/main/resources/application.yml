@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: javapoi
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: false
+      discovery:
+        service-id: mcp-config-server
+        enabled: true
+      profile: ${spring.profiles.active}
+      label: master
+eureka:
+  instance:
+    hostname: server.eureka.slave1.com
+    lease-renewal-interval-in-seconds: 5
+  client:
+    service-url:
+      defaultZone: http://server.eureka.slave1.com:18761/eureka,http://server.eureka.slave2.com:28761/eureka

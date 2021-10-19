@@ -1,5 +1,6 @@
 package com.zjk.item.Service;
 
+import com.zjk.item.Annotation.AnnTest;
 import com.zjk.item.Entity.Item;
 import java.util.HashMap;
 import java.util.Map;
@@ -26,7 +27,7 @@ public class ItemService {
         ITEM_MAP.put(8L, new Item(9L, "商品9", "http://图片9", "商品描述9", 9000L));
         ITEM_MAP.put(8L, new Item(10L, "商品10", "http://图片10", "商品描述10", 10000L));
     }
-
+    @AnnTest
     public Item queryItemById(Long id) {
         System.out.println("调到了，id："+id);
         return ITEM_MAP.get(id);

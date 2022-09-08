@@ -1,88 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="be578ea6-e1ba-41fe-96cd-a9364d5720b2" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="be578ea6-e1ba-41fe-96cd-a9364d5720b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/testConstrust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Enties/OrderPaidEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Entity/MyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OrderPaiEventConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RocketMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Producer/MyProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../item/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../item/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RocketMQTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OrderPaiEventConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Enties/OrderPaidEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/RocketMQApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,6 +42,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -107,8 +62,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.3.3" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.3.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\workspace\MavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../ProgramFiles/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\ProgramFiles\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -118,6 +74,8 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="2EOBps8VGlibCkiNvrgFZ7f8e6p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -177,44 +135,42 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585626843243" />
-    <property name="last_opened_file_path" value="D:/workSpace_IDEA/DRMP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../workspace/QX/华阴市/oneAccept-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zjk.rocketMQ.Consumer" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="RocketMQTest.testRocketMQ" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RocketMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RocketMQ" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RocketMQTest" />
-      <option name="METHOD_NAME" value="testRocketMQ" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjk.rocketMQ.RocketMQApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RocketMQTest.testRocketMQ" />
-      </list>
-    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\zhangjiangkun\AppData\Roaming\Subversion</configuration>
   </component>
@@ -228,6 +184,10 @@
       <workItem from="1585571921083" duration="1880000" />
       <workItem from="1585573938683" duration="1104000" />
       <workItem from="1585619448370" duration="4763000" />
+      <workItem from="1662456937760" duration="1954000" />
+      <workItem from="1662537361572" duration="735000" />
+      <workItem from="1662538119259" duration="7116000" />
+      <workItem from="1662600682375" duration="4045000" />
     </task>
     <servers />
   </component>
@@ -278,10 +238,33 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.m2/repository/org/apache/rocketmq/rocketmq-spring-boot-starter/2.0.3/rocketmq-spring-boot-starter-2.0.3.pom">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-spring-boot-starter/2.0.3/rocketmq-spring-boot-starter-2.0.3.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />

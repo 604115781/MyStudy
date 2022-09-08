@@ -6,6 +6,7 @@ import com.zjk.item.Service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -33,6 +34,11 @@ public class ItemController {
     @RequestMapping("/upstream")
     public void log(@PathVariable("id") Long id){
         System.out.println("this is 8088");
+    }
+
+    @RequestMapping("/qstb/saveApasInfo")
+    public void log(@RequestParam String xmlStr){
+        System.out.println(xmlStr);
     }
 
 }

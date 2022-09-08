@@ -1,10 +1,16 @@
 package com.zjk.item.Aspect;
 
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.sun.xml.internal.ws.commons.xmlutil.Converter;
+import com.zjk.item.Annotation.AnnTest;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
+
+import java.lang.reflect.Method;
 
 @Aspect
 @Component
@@ -18,7 +24,7 @@ public class AspectTestDemo {
 
     @Around("aspectPointCut()")
     public void aroundInfo(ProceedingJoinPoint point){
-        aroundInfoMethod();
+        aroundInfoMethod(point);
     }
     @Before("aspectPointCut()")
     public void beginInfo(){
@@ -38,7 +44,14 @@ public class AspectTestDemo {
         log.info("endInfoMethod...");
     }
 
-    private void aroundInfoMethod(){
+    private void aroundInfoMethod(ProceedingJoinPoint point){
+        //传的值
+        log.info(String.valueOf(point.getArgs()[0]));
+        MethodSignature signature = (MethodSignature) point.getSignature();
+        Method method = signature.getMethod();
+        AnnTest str = method.getAnnotation(AnnTest.class);
+        //注解描述上的值
+        log.info("desc is {}",str.value());
         log.info("aroundInfoMethod...");
     }
 

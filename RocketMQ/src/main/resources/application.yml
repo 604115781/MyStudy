@@ -1,4 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /rocketMq
 rocketmq:
-  name-server: 192.168.146.170:9876
+  name-server: 192.168.2.24:9876
   producer:
-    group: my-group
+    group: my-producer
+

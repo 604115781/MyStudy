@@ -4,27 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f11163e-ed26-44fa-848e-4bf095bc7275" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../dpfDemo/pdfDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/item.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/item/Annotation/AnnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javapoi/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myGradle/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myGradle/.idea/modules/myGradle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myGradle/src/main/java/com/myGradle/Demo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="2f11163e-ed26-44fa-848e-4bf095bc7275" name="Default Changelist" comment="增加切面实例">
+      <change afterPath="$PROJECT_DIR$/../RocketMQ/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RocketMQ/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RocketMQ/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RocketMQ/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RocketMQ/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/testConstrust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/src/test/java/Enties/OrderPaidEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/src/main/java/com/zjk/rocketMQ/Entity/MyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/src/test/java/OrderPaiEventConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RocketMQ/src/test/java/RocketMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RocketMQ/src/main/java/com/zjk/rocketMQ/Producer/MyProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/item/Controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/item/Controller/ItemController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/item/Service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/item/Service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javapoi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javapoi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javapoi/src/main/java/com/zjk/javapoi/JavaPoi/ExportExcelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javapoi/src/main/java/com/zjk/javapoi/JavaPoi/ExportExcelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javapoi/src/main/java/com/zjk/javapoi/JavapoiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javapoi/src/main/java/com/zjk/javapoi/JavapoiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javapoi/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javapoi/src/test/java/com/zjk/javapoi/JavapoiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javapoi/src/test/java/com/zjk/javapoi/JavapoiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -221,7 +234,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606403476648" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../workspace/QX/临渭区/oneAccept" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -272,17 +285,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -344,8 +346,19 @@
       <workItem from="1606395896584" duration="4410000" />
       <workItem from="1606441178066" duration="358000" />
       <workItem from="1608411181275" duration="607000" />
-      <workItem from="1634610352352" duration="3017000" />
+      <workItem from="1634610352352" duration="5662000" />
+      <workItem from="1637925630249" duration="1744000" />
+      <workItem from="1662537819743" duration="292000" />
+      <workItem from="1662538595773" duration="1352000" />
     </task>
+    <task id="LOCAL-00001" summary="增加切面实例">
+      <created>1634613773708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634613773708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -440,6 +453,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加切面实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加切面实例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,8 +492,23 @@
           <line>61</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zjk/item/Controller/ItemController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="point.getArgs()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-dependencies/Finchley.SR1/spring-cloud-dependencies-Finchley.SR1.pom" />

@@ -2,6 +2,7 @@ package com.zjk.rocketMQ.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
@@ -11,13 +12,10 @@ import java.io.Serializable;
  * @date :2020/3/31 10:32
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class MyEntity implements Serializable {
-
-    private static final long serialVersionUID= 1L;
-    public MyEntity(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+    private static final long serialVersionUID = 1L;
 
     private String name;
 

@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be578ea6-e1ba-41fe-96cd-a9364d5720b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/testConstrust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="be578ea6-e1ba-41fe-96cd-a9364d5720b2" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Enties/OrderPaidEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Entity/MyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderPaiEventConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RocketMQTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Producer/MyProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../item/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../item/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Aspect/AspectTestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../item/src/main/java/com/zjk/item/Service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../websocket/src/main/java/com/zjk/svc/websocket/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Entity/MyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Entity/MyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Producer/MyProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Producer/MyProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,7 +136,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585626843243" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../workspace/QX/华阴市/oneAccept-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -160,6 +148,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RocketMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RocketMQ" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zjk.rocketMQ.RocketMQApplication" />
@@ -187,8 +188,18 @@
       <workItem from="1662456937760" duration="1954000" />
       <workItem from="1662537361572" duration="735000" />
       <workItem from="1662538119259" duration="7116000" />
-      <workItem from="1662600682375" duration="4045000" />
+      <workItem from="1662600682375" duration="4656000" />
+      <workItem from="1662608057935" duration="6736000" />
+      <workItem from="1662691828429" duration="2498000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1662607488454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662607488454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -252,12 +263,16 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zjk/rocketMQ/Consumer/MyConsumer1.java</url>
-          <line>11</line>
+          <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

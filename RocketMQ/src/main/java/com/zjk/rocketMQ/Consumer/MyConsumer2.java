@@ -19,6 +19,6 @@ public class MyConsumer2 implements RocketMQListener<String> {
 
     @Override
     public void onMessage(String message) {
-        log.info("topic-2,接收数据：{}",message);
+        log.info("thread name {},topic-2,接收数据：{}",Thread.currentThread().getName(),message);
     }
 }

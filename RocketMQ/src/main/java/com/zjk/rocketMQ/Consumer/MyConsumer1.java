@@ -19,7 +19,6 @@ public class MyConsumer1 implements RocketMQListener<MyEntity> {
 
     @Override
     public void onMessage(MyEntity myEntity) {
-        log.info("topic-1,接收数据：{}",JSON.toJSONString(myEntity));
-        log.info("topic-1,接收数据age：{}",myEntity.getAge());
+        log.info("thread name {},topic-1,接收数据：{}",Thread.currentThread().getName(),JSON.toJSONString(myEntity));
     }
 }

@@ -3,7 +3,7 @@ server:
   servlet:
     context-path: /rocketMq
 rocketmq:
-  name-server: 192.168.2.24:9876
+  name-server: 192.168.2.24:9876;192.168.2.54:9876
   producer:
     group: my-producer
 

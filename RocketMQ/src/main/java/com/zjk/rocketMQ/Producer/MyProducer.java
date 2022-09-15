@@ -20,12 +20,9 @@ import javax.annotation.Resource;
 public class MyProducer {
     @Resource
     private RocketMQTemplate rocketMQTemplate;
-    private static int i=0;
     @RequestMapping("/sendMsg")
     public void sendMsg(){
         rocketMQTemplate.send("topic-1", MessageBuilder.withPayload(new MyEntity("李四",44)).build());
         rocketMQTemplate.convertAndSend("topic-2", "你好啊 张三");
-        log.info("第{}条消息发送成功！！",++i);
     }
-
 }

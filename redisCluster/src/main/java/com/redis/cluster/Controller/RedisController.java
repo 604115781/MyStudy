@@ -130,5 +130,4 @@ public class RedisController {
             log.info(""+listOperations.rightPop("list",0, TimeUnit.MILLISECONDS));
         }
     }
-
 }

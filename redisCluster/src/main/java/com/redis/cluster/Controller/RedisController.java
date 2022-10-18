@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
 @RestController
@@ -22,6 +23,8 @@ public class RedisController {
     private SetOperations<String,Object> setOperations;
     @Autowired
     private ZSetOperations<String,Object> zSetOperations;
+    @Autowired
+    private ListOperations<String,Object> listOperations;
 
     @RequestMapping("/hash")
     public void redisHash() {
@@ -111,4 +114,21 @@ public class RedisController {
             log.info(item.getScore().toString());
         });
     }
+
+    //消息队列模型
+    @RequestMapping("/listPush")
+    public void redisListPush() {
+        listOperations.leftPush("list","a");
+        listOperations.leftPush("list","b");
+        listOperations.leftPush("list","c");
+        listOperations.leftPush("list","d");
+        listOperations.leftPush("list","e");
+    }
+    @RequestMapping("/listPop")
+    public void redisListPop() {
+        while(true){
+            log.info(""+listOperations.rightPop("list",0, TimeUnit.MILLISECONDS));
+        }
+    }
+
 }
